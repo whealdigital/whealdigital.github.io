@@ -10,7 +10,7 @@ $spacing-unit:     2.37vw !default;
 
 $text-color:       #111 !default;
 $background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$brand-color:      #be3e1e !default;
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -27,7 +27,7 @@ $light-grey-1:       #ededed !default;
 $black-2: #000 !default;
 
 // Rob's fonts
-$header-font: 'norwester', Arial, Helvetica, sans-serif;
+$header-font: 'norwester', Arial, Helvetica, sans-serif !default;
 
 // Use media queries like this:
 // @include media-query($on-palm) {
@@ -56,4 +56,145 @@ $header-font: 'norwester', Arial, Helvetica, sans-serif;
        url('fonts/norwester_regular_macroman/norwester-webfont.woff') format('woff'), /* Pretty Modern Browsers */
        url('fonts/norwester_regular_macroman/norwester-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('fonts/norwester_regular_macroman/norwester-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+    font-family: 'oswald_regularregular';
+    src: url('/assets/fonts/oswald/oswald-bold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/oswald/oswald-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldbold';
+    src: url('/assets/fonts/oswald/oswald-bolditalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/oswald/oswald-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswalddemibold';
+    src: url('/assets/fonts/oswald/oswald-demibold-webfont.woff2') format('woff2'),
+         url('/assets/fonts/oswald/oswald-demibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldextralight';
+    src: url('/assets/fonts/oswald/oswald-extralight-webfont.woff2') format('woff2'),
+         url('/assets/fonts/oswald/oswald-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldheavy';
+    src: url('/assets/fonts/oswald/oswald-heavy-webfont.woff2') format('woff2'),
+         url('/assets/fonts/oswald/oswald-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldlight';
+    src: url('/assets/fonts/oswald/oswald-light-webfont.woff2') format('woff2'),
+         url('/assets/fonts/oswald/oswald-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldlight';
+    src: url('/assets/fonts/oswald/oswald-lightitalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/oswald/oswald-lightitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldmedium';
+    src: url('/assets/fonts/oswald/oswald-medium-webfont.woff2') format('woff2'),
+         url('/assets/fonts/oswald/oswald-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldmedium';
+    src: url('/assets/fonts/oswald/oswald-mediumitalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/oswald/oswald-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswald_regularregular';
+    src: url('/assets/fonts/oswald/oswald-regular-webfont.woff2') format('woff2'),
+         url('/assets/fonts/oswald/oswald-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswaldregular';
+    src: url('/assets/fonts/oswald/oswald-regularitalic-webfont.woff2') format('woff2'),
+         url('/assets/fonts/oswald/oswald-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'oswald_stencilbold';
+    src: url('/assets/fonts/oswald/oswald-stencil-webfont.woff2') format('woff2'),
+         url('/assets/fonts/oswald/oswald-stencil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }

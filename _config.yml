@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Wheal Digital
 email: info@wheal.digital
+author: Rob Harrison
 description: > # this means to ignore newlines until "baseurl:"
   Promotes open source software and helps people create a web presence by providing help and support, offering shared server resources by utilising cluster computing technologies.  
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -23,6 +24,8 @@ twitter_username: robwithhair
 github_username:  whealdigital
 
 # Build settings
+sass:
+  sass_dir: _sass
 markdown: kramdown
 theme: minima
 gems:
@@ -30,3 +33,18 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+defaults:
+  -
+    scope:
+      path: ""
+      type: "" # previously `page` in Jekyll 2.2.
+    values:
+      author: "Rob Harrison"
+      authorEmail: "info@wheal.digital"
+  -
+    scope:
+      path: ""
+      type: "posts" # previously `page` in Jekyll 2.2.
+    values:
+      author: "Rob Harrison"
+      authorEmail: "rob@wheal.digital"
